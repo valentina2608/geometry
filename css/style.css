@@ -1,0 +1,279 @@
+ 
+ #top {background-color:#bf9ab2;
+}
+
+ #mainnav li a{color:#5f0036;
+ text-align:center;
+ margin-top:40px;
+ font-size:18px;
+ }
+ 
+ #mainnav li a:hover{
+ color:white;
+ background-color:#6664bf;
+ }
+
+ #logo{padding-top:0px;}
+
+ /*Page Index.html */
+  #about{width:100%;
+ text-align:left;
+ text-indent:20px;
+ font-size:20px;
+ padding-top:20px;
+ }
+ 
+ 
+ #info_site{margin-top:30px;}
+ 
+ #info_site .container .row{
+  border-top:2px solid grey;
+ margin-top:20px;
+ text-align:center;
+ font-size:24px;}
+ 
+  #info_site .container .row .image{
+  margin-top:20px;}
+
+   #info_site .container .row .item2{
+   border-right:2px solid grey;
+   border-left:2px solid grey;
+   }
+  
+  
+  /*Page Dodatkovi_vidomosti.html, Methnods.html */
+ 
+  #vidomosti{margin-top:30px;
+  font-size:22px;}
+
+  #start h3{text-align:center;
+  margin-top:20px;
+  font-size:20px;
+  font-weight:bold;
+  color:#4f0830;
+}
+  
+  
+  figure{width:400px;
+overflow:hidden;}
+
+figure img{display:block;
+transition:500ms;}
+
+figcaption {
+ position:absolute;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  background-color:#6664bf;
+  padding:10px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 500ms;
+  cursor:pointer;
+}
+
+figcaption a{text-decoration:none;
+color:white;
+font-weight:bold;}
+
+figcaption a:hover{text-decoration:none;
+color:black;
+font-weight:bold;}
+
+figure:hover figcaption{
+opacity:1;
+transform:translateY(0);
+}
+
+figure:hover img{
+transform: scale(0.7);
+}
+
+ #info:hover{
+ box-shadow: inset 0 0 0 5px #bf9ab2;
+}
+
+  
+  #gmt{font-size:22px;
+ margin-top:50px;
+  }
+  
+  #gmt img{margin-top:20px;}
+  
+   h2{color:#6664bf;}
+  
+  .dv_info{text-indent:30px;
+  margin-bottom:50px;}
+  
+  .dv_info1 {margin-top:50px;
+  text-indent:30px;
+  }
+ 
+  .dv_info1 span{font-weight:bold;
+  color:#4f0830;
+  font-style:italic;}
+  
+  #gmt_img{margin-top:50px;}
+  
+   #symetria1{margin-top:50px;
+  }
+   
+   .dv_info2{margin-top:20px;
+   text-indent:30px;}
+   
+   .dv_info2 span{font-weight:bold;
+  color:#4f0830;
+  font-style:italic;}
+  
+   #symetria2{margin-top:50px;
+  }
+ 
+
+  #povorot{font-size:22px;
+  margin-top:50px;
+  }
+  
+  #perenesenna{margin-top:50px;
+  }
+ 
+ h3{
+  font-weight:bold;
+  color:#4f0830;
+  }
+ 
+  
+  /* Page exercise.html*/
+  #exercise {font-size:18px;}
+  #exercise span{font-weight:bold;}
+
+  
+  /* Page triangle.html */
+  
+  #pobydova{font-size:22px;}
+  #triangle{border:1px solid grey;}
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  #analiz_triangle .line3 {width:93px;
+height:2px;
+background-color:black;
+margin-top:50px;
+margin-left:50px;}   
+	   
+#analiz_triangle .line4{width:143px;
+height:2px;
+margin-top:50px;
+margin-left:50px;
+background-color:black;}
+
+#analiz_triangle .tochka {width:5px;
+ height:5px;
+ border-radius:3px;
+ background-color:black;
+ margin-left:49px;
+ margin-top:-4px;
+}
+#analiz_triangle .tochka:nth-child(3){
+margin-left:190px;
+width:5px;
+ height:5px;
+ border-radius:3px;
+ background-color:black;
+}
+#analiz_triangle .tochka:nth-child(7){
+margin-left:140px;
+width:5px;
+ height:5px;
+ border-radius:3px;
+ background-color:black;
+}
+#analiz_triangle .tochka:nth-child(11){
+margin-left:190px;
+width:5px;
+ height:5px;
+ border-radius:3px;
+ background-color:black;
+}
+#analiz_triangle  .a {width:20px;
+ height:20px;
+ color:black;
+ font-size:20px;
+ margin-top:-4px;
+ margin-left:120px;
+}
+#analiz_triangle  .c {width:20px;
+ height:20px;
+ color:black;
+ font-size:20px;
+ margin-top:-4px;
+ margin-left:90px;
+}
+#analiz_triangle  .b {width:20px;
+ height:20px;
+ color:black;
+ font-size:20px;
+ margin-top:2px;
+ margin-left:110px;
+}
+  
+  
+ #analiz_triangle .line2 {width:140px;
+height:2px;
+background-color:black;
+margin-top:27px;
+margin-left:50px;
+}
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ footer {background-color:grey;
+ height:100px;
+ color:white;
+ margin-top:70px;
+ 
+
+}
+
+
+ footer .row{
+ padding-top:20px;
+ font-size:20px;
+ }
+
+
+
+
+
+
+
+
+
+
+

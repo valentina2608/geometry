@@ -1,0 +1,8 @@
+ Sitemap: http://www.geometry.ho.ua/sitemap.xml
+ User-agent: Yandex
+ Disallow: /cgi-bin/
+ Host: www.geometry.ho.ua
+ User-agent: Googlebot
+ Disallow: /cgi-bin/
+ User-agent: * 
+ Disallow: /cgi-bin/

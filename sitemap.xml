@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://geometry.ho.ua/</loc>
+  <lastmod>2017-05-25T20:41:36+00:00</lastmod>
+</url>
+<url>
+  <loc>http://geometry.ho.ua/index.html</loc>
+  <lastmod>2017-05-25T20:41:36+00:00</lastmod>
+</url>
+<url>
+  <loc>http://geometry.ho.ua/zadachi_na_pobydovy.html</loc>
+  <lastmod>2017-05-25T20:21:32+00:00</lastmod>
+</url>
+<url>
+  <loc>http://geometry.ho.ua/vidomi_zadachi.html</loc>
+  <lastmod>2017-05-25T20:21:31+00:00</lastmod>
+</url>
+<url>
+  <loc>http://geometry.ho.ua/nerozvazani_zadachi.html</loc>
+  <lastmod>2017-05-25T20:21:30+00:00</lastmod>
+</url>
+<url>
+  <loc>http://geometry.ho.ua/dodatkovi_vidomosti.html</loc>
+  <lastmod>2017-05-25T20:21:26+00:00</lastmod>
+</url>
+<url>
+  <loc>http://geometry.ho.ua/exercise.html</loc>
+  <lastmod>2017-05-25T20:21:27+00:00</lastmod>
+</url>
+<url>
+  <loc>http://geometry.ho.ua/methods.html</loc>
+  <lastmod>2017-05-25T20:21:29+00:00</lastmod>
+</url>
+</urlset>
