@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name = "description" content="Задачі на побудову" lang="uk">
 	<meta name="keywords" content="Задачі на побудову" lang="uk">
-	<title>Побудова трикутника</title>
+	<title>Побудова перпендикулярної прямої</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	 <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
      <link rel="icon" href="/favicon.ico" type="image/ico"/>
@@ -69,27 +69,33 @@
 	<div class="container">
 	<div class="row">
 	<div class="col-md-12 col-sm-12 col-xs-12">
-	<h2>Побудувати трикутник за даними сторонами a, b, c.</h2>
+	<h2>Побудувати перпендикулярну пряму.</h2>
 	</div>
 	<div class="col-md-12 col-sm-12 col-xs-12">
 	<h3>Аналіз</h3>
-	<div class="dv_info2"> Перш ніж приступити до побудови трикутника із заданими величинами сторін,
-	 потрібно перевіти, чи даний трикутник може існувати.
-	 Для цього використовуємо нерівність трикутника: Кожна сторона трикутника менша за суму двох інших сторін.</div>
-	</div>
-	<div class="col-md-12 col-sm-12 col-xs-12" id="analiz_triangle">
+	<div class="col-md-12 col-sm-12 col-xs-12" id="analiz_prama">
+	<div class="line11"></div>
+	<div class="a1">
+	<div class="tochka1"></div>
+	A</div>
+	<div class="o1">
+	<div class="tochka1"></div>
+	O</div>
 	<div class="line21"></div>
-	<div class="tochka"></div>
-	<div class="tochka"></div>
-	<div class="a1">a</div>
-	<div class="line31"></div>
-	<div class="tochka"></div>
-	<div class="tochka"></div>
-	<div class="c1">c</div>
-	<div class="line41"></div>
-	<div class="tochka"></div>
-	<div class="tochka"></div>
-	<div class="b1">b</div>
+	<div class="c1">
+	<div class="tochka1"></div>
+	C</div>
+	<div class="b1">
+	<div class="tochka1"></div>
+	B</div>
+	<div class="f1">
+	<div class="tochka1"></div>
+	F</div>
+	<div class="line31"></div>	
+	<div class="line41"></div>	
+	<div class="line51"></div>	
+	<div class="line61"></div>	
+	</div>
 	</div>
 	</div>
 	
@@ -97,67 +103,63 @@
 	<div class="col-md-12 col-sm-12 col-xs-12">
 	<h3>Побудова</h3>
 	</div>
-	<div class="col-md-6 col-sm-12 col-xs-12" id="triangle">
-	<div class="triangle">
-	<div class=pb>
+	<div class="col-md-6 col-sm-12 col-xs-12" id="prama">
+	<div class="prama">
+		<div class=pb>
 	<div class=pb1>
-	
 	<div class=line1></div>
-	<div class=b>
+	<div class=a>
 	<div class=tochka></div>
-	B</div>
+	A</div>
 	<div class=circle></div>
 	<div class=c>
 	<div class=tochka></div>
 	C</div>
+	<div class=b>
+	<div class=tochka></div>
+	B</div>
 	<div class=circle1></div>
 	<div class=circle2></div>
-	<div class=a>
+	<div class=f>
 	<div class=tochka></div>
-	A</div>
+	F</div>
     <div class=line2></div>
 	  <div class=line3></div>
-	<div class=line4></div>
+	  <div class=line4></div>
 	</div>
-	<button class=start>Побудувати трикутник</button>
+	<button class=start>Побудувати пряму</button>
 	</div>
 	</div>
 	</div>
 	<div class="col-md-6 col-sm-12 col-xs-12">
 	<p class=p1>1. За допомогою лінійки проводимо довільну пряму
-	<p class=p2>2. Позначаємо на ній точку В.
-	<p class=p3>3. Розхилом циркуля, що дорівнює <b>a</b> описуємо коло з центром у точці <b>B</b> і радіусом <b>a</b>
-	<p class=p4>4. Нехай <b>С</b> - точка перетину цього кола з прямою
-	<p class=p5>5. Розхилом циркуля, що дорівнює <b>c</b>, описуємо коло з центром у точці <b>B</b>.
-	<p class=p6>6. Розхилом циркуля, що дорівнює <b>b</b>, описуємо коло з центром у точці <b>C</b>.
-	<p class=p7>7. Точка <b>A</b> - точка перетину цих кіл.
-	<p class=p8>8.Проведемо відрізок <b>AC</b>
-	<p class=p9>9. Проведемо відрізок <b>AB</b>
-	<p class=p10>10.Трикутник <b>ABC</b> має сторони, що дорівнюють <b>a,b,c</b>.
+	<p class=p2>2. Позначаємо довільну точку А поза прямою
+	<p class=p3>3. Довільним радіусом з центром у точці A будуємо коло, яке перетинає пряму в точках С і В
+	<p class=p4>4. З точок B i C будуємо два коло тим же самим радіусом.
+	<p class=p5>5. Точка F-точка перетину даних кіл.
+	<p class=p6>6. АF-перпендикуляр до прямої СВ
 	</div>
-	
 	</div>
-	
 	<div class="row">
 	<div class="col-md-12 col-sm-12 col-xs-12">
 	<h3>Доведення</h3>
-	<div class="dv_info2">Доведемо, що побудований трикутник є шуканим, для цього скористаємося ознаками рівності трикутників.
-	Отже, BC=a, BA=c, AC=b.
-	За третьою ознакою рівності трикутників, побудований трикутник є шуканим. </div>
+	<div class="dv_info2">
+	Доведемо, AF - перпендикуляр до прямої ВС.Отже, AC=AB=R, CF=FB=R, CB- спільна сторона.
+	Трикутник CAB дорівнює трикутнику CFB (III ознака рівності трикутників).AC=CF=R, &#8736 ACO=&#8736 OCF, OC- спільна сторона.
+   Трикутник CAB дорівнює трикутнику CFB (I ознака рівності трикутників).
+   Отже, &#8736 AOC=&#8736 OCB=90 <sup>0</sup>
 	</div>
 	</div>
-	
+	</div>
 	
 	<div class="row">
 	<div class="col-md-12 col-sm-12 col-xs-12">
 	<h3>Дослідження</h3>
-	<div class="dv_info2">Дослідимо, скільки розв'язків може мати дана задача.Якщо, виконується нерівність трикутника, то задача має один розв'язок.
-	Якщо, нерівність трикутника не виконується, то задача не має розв'язків.</div> 
+	<div class="dv_info2">Дослідимо, скільки розв'язків може мати дана задача. Задача має один розв'язок.
+	</div> 
 	</div>
 	</div>
 	</div>
-
-	
 	</section>
 		
 	<footer>
@@ -182,49 +184,45 @@
   $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
  });
 </script>
-<script>
+  <script>
   $(function(){
   $('.zadachi').on('click', function(){
 				$('#zadachi').slideToggle('slow');
 		});
-		
 	$('.start').on('click',function(){
 	$('.pb').css({
 	"width":"600px",
 	"height":"300px",
 });
+    $('.tr').fadeToggle(500);
 	$('.start').fadeOut(600);
 	$('.p1').delay(500).fadeIn(2000);
 	$('.line1').delay(1000).fadeIn(2000);
-    $('.p2').delay(2000).fadeIn(2000);
-	$('.b').delay(3000).fadeIn(2000);
-	$('.b .tochka').delay(3000).fadeIn(2000);
-	$('.p3').delay(4000).fadeIn(2000);
+	$('.p2').delay(2000).fadeIn(2000);
+	$('.a').delay(3000).fadeIn(2000);
+	$('.a .tochka').delay(3000).fadeIn(2000);
+    $('.p3').delay(4000).fadeIn(2000);
 	$('.circle').delay(5000).fadeIn(2000);
-    $('.p4').delay(6000).fadeIn(2000);
-	$('.c').delay(7000).fadeIn(2000);
-	$('.c .tochka').delay(7000).fadeIn(2000);
-    $('.p5').delay(8000).fadeIn(2000);
-	$('.circle1').delay(9000).fadeIn(2000);
-	$('.p6').delay(10000).fadeIn(2000);
-	$('.circle2').delay(11000).fadeIn(2000);
-	$('.p7').delay(12000).fadeIn(2000);
-	$('.a').delay(13000).fadeIn(2000);
-	$('.a .tochka').delay(13000).fadeIn(2000);
-	$('.p8').delay(14000).fadeIn(2000);
-	$('.line2').delay(15000).fadeIn(2000);
-	$('.line2').rotate(143);
-	$('.p9').delay(16000).fadeIn(2000);
-	$('.line3').delay(17000).fadeIn(2000);
-	$('.line3').rotate(-108);
-	$('.p10').delay(18000).fadeIn(2000);
-	$('.line4').delay(19000).fadeIn(2000);
+	$('.c').delay(6000).fadeIn(2000);
+	$('.c .tochka').delay(6000).fadeIn(2000);
+	$('.b').delay(7000).fadeIn(2000);
+	$('.b .tochka').delay(7000).fadeIn(2000);	
+    $('.p4').delay(8000).fadeIn(2000);
+	$('.circle1').delay(9000).fadeIn(2000);	
+	$('.circle2').delay(10000).fadeIn(2000);
+    $('.p5').delay(11000).fadeIn(2000);
+	$('.f').delay(12000).fadeIn(2000);
+	$('.f .tochka').delay(12000).fadeIn(2000);
+	$('.p6').delay(13000).fadeIn(2000);
+	$('.line2').delay(14000).fadeIn(2000);
+	$('.line2').rotate(90);
+	$('.line3').delay(14000).fadeIn(2000);
+	$('.line3').rotate(90);
     setTimeout(function() {location.reload()}, 30000)
-	$('.start').delay(30000).fadeIn(2000);
+	 $('.start').delay(35000).fadeIn(2000);
    });
+
    });
    </script>
-
-
     </body>
     </html>

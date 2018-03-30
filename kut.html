@@ -2,19 +2,19 @@
     <html>
     <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name = "description" content="Що таке задачі на побудову" lang="uk">
-	<meta name="keywords" content="Інформація про задачі на побудову" lang="uk">
-	<title>Задачі на побудову</title>
+	<meta name = "description" content="Задачі на побудову" lang="uk">
+	<meta name="keywords" content="Задачі на побудову" lang="uk">
+	<title>Побудова кута</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	 <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
      <link rel="icon" href="/favicon.ico" type="image/ico"/>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
+   <script src="js/jQueryRotate.js"></script>
 	 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	 <link rel="stylesheet" href="css/style.css">
 	 <link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
-
     </head>
     <body>
 	<header id="top" class="navbar navbar-default">
@@ -38,7 +38,7 @@
 		<nav class="collapse navbar-collapse bs-navbar-collapse " aria-expanded="true">
   <ul id="mainnav" class="nav navbar-nav navbar-right">
   <li><a href="index.html">Головна</a></li>
-  <li class="dropdown"><a href="#" class="dropdown-toggle-js" data-toggle="dropdown">Задачі на побудову
+   <li class="dropdown"><a href="#" class="dropdown-toggle-js" data-toggle="dropdown">Задачі на побудову
   <b class="caret"></b></a>
   <ul class="dropdown-menu">
   <li><a href="zadachi_na_pobydovy.html">Задачі на побудову</a></li>
@@ -65,62 +65,86 @@
 	</div>
 	</header>
 	
-    <section id="vidomosti">
+    <section id="pobydova">
 	<div class="container">
 	<div class="row">
 	<div class="col-md-12 col-sm-12 col-xs-12">
-	<h2>Що таке задачі на побудову</h2>
+	<h2>Побудувати кут, що дорівнює даному.</h2>
 	</div>
-	<div class="col-md-4 col-sm-12 col-xs-12">
-	<img src="img/z1.jpg">
-	</div>
-	<div class="col-md-8 col-sm-12 col-xs-12">
-	<div class="dv_info2">
-	Під задачею на побудову розуміють вимогу:побудувати за допомогою
-	інструментів геометричну фігуру, яка б задовольняла певній заданій умови. 
-	Розділ геометрії, в якому вивчаються задачі на побудову, називають <span>конструктивною геометрією.</span> 
-	Розв’язати задачу на побудову означає звести її до скінченого числа елементарних побудов, 
-	які виконуються за допомогою циркуля і лінійки, на основі аксіом конструктивної геометрії. 
-	</div>
-	</div>
-	</div>
-	
-	
-	
-	
-	
-	
-
-	<div class="row">
 	<div class="col-md-12 col-sm-12 col-xs-12">
-	<h2>Основні поняття геометрії</h2>
-	<div class="dv_info2">
-	Основними неозначуваними поняттями в геометрії вважають <span>точки, прямі і площини,</span>
-	а також основні співвідношення між ними – належати, 
-	лежати між і бути рівними. Усяке інше поняття в геометрії зводиться до основних за допомогою означень.  
-	</div>
-	</div>
-	</div>
-	<div class="row">
-	<div class="col-md-12 col-sm-12 col-xs-12">
-	<h2>Схема розв'язування задач на побудову</h2>
 	<h3>Аналіз</h3>
-	<div class="dv_info2"><span>Аналіз</span>  – це відшукання способу розв’язування задачі на основі
-	закону про єдність аналізу та синтезу, це план розв’язування задачі (усвідомлення умови задачі, 
-	зв’язків між даними і шуканими величинами).</div>
-    <h3>Побудова</h3>
-    <div class="dv_info2"><span>Побудова</span> – відповідно до плану, складеного під час аналізу, 
-	за допомогою вказаних інструментів виконуємо побудову шуканої фігури за елементами, даними в умові задачі.</div>
+	<div class="col-md-12 col-sm-12 col-xs-12" id="analiz_kut">
+	<div class="line11"></div>
+	<div class="a1">
+	<div class="tochka"></div>
+	A</div>
+	<div class="line21"></div>
+	<div class="f1">
+	<div class="tochka"></div>
+	F</div>
+	<div class="e1">
+	<div class="tochka"></div>
+	E</div>
+	<div class="line31"></div>
+	</div>
+	</div>
+	</div>
+	
+	<div class="row">
+	<div class="col-md-12 col-sm-12 col-xs-12">
+	<h3>Побудова</h3>
+	</div>
+	<div class="col-md-6 col-sm-12 col-xs-12" id="kut">
+	<div class="kut">
+	<div class=pb>
+	<div class=pb1>
+	<div class=line1></div>
+	<div class=o>
+	<div class=tochka></div>
+	O</div>
+	<div class=circle1></div>
+	<div class=b>
+	<div class=tochka></div>
+	B</div>
+	<div class=circle2></div>
+	<div class=c>
+	<div class=tochka></div>
+	C</div>
+	<div class=line2></div>
+	</div>
+	
+	<button class=start>Побудувати кут</button>
+	</div>
+	</div>
+	</div>
+	<div class="col-md-6 col-sm-12 col-xs-12">
+	<p class=p1>1. За допомогою лінійки проводимо довільну пряму
+	<p class=p2>2. Позначаємо на прямій точку О
+	<p class=p3>3. Описуємо коло з центром в точці О радіусом AE	
+	<p class=p4>4. Точка В-точка перетину кола з прямою
+	<p class=p5>5. Описуємо коло радіусом EF з центром в точці В
+	<p class=p6>6. Точка С-точка перетину кіл
+	<p class=p7>7. Проводимо пряму через точки О і С
+	<p class=p8>8. Кут СОВ-побудований кут
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-md-12 col-sm-12 col-xs-12">
 	<h3>Доведення</h3>
-    <div class="dv_info2"><span>Доведення</span>	– це усвідомлення і перевірка правильності розв’язку задачі.</div>
+	<div class="dv_info2">
+	Доведемо, що побудований кут дорівнює даному. Отже, AE=AB=R, BC=FE=R<sub>1</sub>, OC=AF=R.Отже, &#8736 COB=&#8736 FAE
+	</div>
+	</div>
+	</div>
+	
+	<div class="row">
+	<div class="col-md-12 col-sm-12 col-xs-12">
 	<h3>Дослідження</h3>
-    <div class="dv_info2"><span>Дослідження</span> – це етап, на якому визначаємо, для яких саме даних задача має розв’язки,
-	і якщо має, то скільки їх, чи все зроблено добре, що можна зробити інакше,як діяти за інших умов. </div>
+	<div class="dv_info2">Дослідимо, скільки розв'язків може мати дана задача. Задача має один розв'язок.
+	</div> 
 	</div>
 	</div>
 	</div>
-	
-	
 	</section>
 		
 	<footer>
@@ -145,6 +169,41 @@
   $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
  });
 </script>
+ <script>
+  $(function(){
+  $('.zadachi').on('click', function(){
+				$('#zadachi').slideToggle('slow');
+		});
+	$('.start').on('click',function(){
+	$('.pb').css({
+	"width":"600px",
+	"height":"300px",
+});
+	$('.start').fadeOut(600);
+	$('.p1').delay(500).fadeIn(2000);
+	$('.line1').delay(1000).fadeIn(2000);
+    $('.p2').delay(2000).fadeIn(2000);
+	$('.o').delay(3000).fadeIn(2000);
+	$('.o .tochka').delay(3000).fadeIn(2000);
+	$('.p3').delay(4000).fadeIn(2000);
+	$('.circle1').delay(5000).fadeIn(2000);
+	$('.p4').delay(6000).fadeIn(2000);
+	$('.b').delay(7000).fadeIn(2000);
+	$('.b .tochka').delay(7000).fadeIn(2000);
+	$('.p5').delay(8000).fadeIn(2000);
+	$('.circle2').delay(9000).fadeIn(2000);
+	$('.p6').delay(10000).fadeIn(2000);
+	$('.c').delay(11000).fadeIn(2000);
+	$('.c .tochka').delay(11000).fadeIn(2000);
+	$('.p7').delay(12000).fadeIn(2000);
+	$('.line2').delay(13000).fadeIn(2000);
+	$('.line2').rotate(97);
+	$('.p8').delay(14000).fadeIn(2000);
+ setTimeout(function() {location.reload()}, 25000)
+ $('.start').delay(30000).fadeIn(2000);
+   });
+   });
+   </script>
 
     </body>
     </html>
